@@ -1,0 +1,132 @@
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Shared style */
+
+.btn-primary{
+max-width: 197px; 
+max-height: 50px;
+padding: 10px;
+border-radius: 12px;
+ border: none;
+ text-align: left;
+ font-size: 1.25rem;
+ font-weight: 600;
+ color: rgb(255, 255, 255);
+
+}
+.logo-container{
+    display: flex;
+    gap: 186px;
+    max-width:1160px;
+    max-height: 62px;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+nav img{
+    height: 100%;
+}
+nav p{
+    font-size: 32px;
+    font-weight: 700;
+}
+.links
+{
+    display: flex;
+    gap: 32px;
+    width: 387px;
+    height: 30px;
+    justify-content: flex-start;
+}
+.nav-item{
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: left;
+    
+}
+.nav-link1{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(254, 163, 1);
+}
+.nav-link2{
+    text-decoration: none;
+color: rgb(1, 172, 253);
+}
+.nav-link3{
+    text-decoration: none;
+color: rgb(5, 212, 223);
+}
+.nav-link4{
+    text-decoration: none;
+color: rgb(93, 88, 239);
+}
+nav button{
+background: rgb(254, 163, 1);
+}
+/* Banner style*/
+.banner-container{
+    display: flex;
+    padding: 0 auto;
+    gap: 50;
+    max-width: 1160px;
+    max-height: 575px;
+    margin-left: 141px;
+    margin-top: 100px;
+}
+.banner-heading{
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-align: left;
+    color: rgb(17,17,7); 
+    margin: 24px 0;   
+}
+#empowering{
+    color: rgb(254,163,1);
+}
+#vision{
+    color: rgb(1,172,253);
+}
+.banner-description{
+    max-width: 640px;
+    max-height: 50px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 24px 0;
+}
+.banner-btn{
+    font-weight: 700;
+    background-color: rgb(17, 17, 17);
+    padding: 10px;
+    margin: 24px 0;
+}
+
+
+@media screen and (max-width:576px) {
+    .links , .btn-primary , .logo-title{
+    display: none;
+    }
+    /* .menu-bar{}  */
+.banner-container{
+    flex-direction: column-reverse;
+    gap: 10px;
+    align-items: center;
+}
+.banner{
+    align-items: center;
+}
+.banner-image{
+    width: 100%;
+}
+
+}
+
+
