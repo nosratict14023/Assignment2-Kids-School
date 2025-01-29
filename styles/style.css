@@ -8,7 +8,7 @@
 
 .btn-primary{
 max-width: 197px; 
-max-height: 50px;
+height: 50px;
 padding: 10px;
 border-radius: 12px;
  border: none;
@@ -22,7 +22,7 @@ border-radius: 12px;
     display: flex;
     gap: 186px;
     max-width:1160px;
-    max-height: 62px;
+    height: 62px;
     margin: 0 auto;
 }
 .logo{
@@ -31,7 +31,7 @@ border-radius: 12px;
     gap: 1vw;
 }
 nav img{
-    height: 100%;
+    width: 100%;
 }
 nav p{
     font-size: 32px;
@@ -72,15 +72,22 @@ color: rgb(93, 88, 239);
 nav button{
 background: rgb(254, 163, 1);
 }
+.menu-bar
+{
+    display: none;
+}
 /* Banner style*/
 .banner-container{
     display: flex;
     padding: 0 auto;
-    gap: 50;
     max-width: 1160px;
-    max-height: 575px;
+    height: 575px;
     margin-left: 141px;
     margin-top: 100px;
+}
+.banner{
+    max-width: 640px;
+    margin: 0 50px;
 }
 .banner-heading{
     font-weight: 700;
@@ -97,7 +104,7 @@ background: rgb(254, 163, 1);
 }
 .banner-description{
     max-width: 640px;
-    max-height: 50px;
+    height: 50px;
     font-weight: 400;
     font-size: 1.25rem;
     margin: 24px 0;
@@ -108,24 +115,48 @@ background: rgb(254, 163, 1);
     padding: 10px;
     margin: 24px 0;
 }
-
+.banner-image{
+    max-width: 50%;
+    height: auto;
+}
 
 @media screen and (max-width:576px) {
     .links , .btn-primary , .logo-title{
     display: none;
     }
-    /* .menu-bar{}  */
-.banner-container{
+    .logo-container{
+        justify-content: space-around;
+        align-items: center;
+        padding: 12px 16px;
+        border: 0.5px solid rgb(254, 163, 1);
+    }
+.menu-bar{
+    display: block;
+} 
+ .banner-container{
     flex-direction: column-reverse;
-    gap: 10px;
+    justify-content: center;
     align-items: center;
-}
+    margin: 0;
+    padding: 20px 0 20px 0;
+} 
 .banner{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-.banner-image{
-    width: 100%;
+.banner-heading{
+    font-size: 2rem;
 }
+.banner-description{
+    font-size: .875rem;
+}
+ .banner-btn{
+    display: block;
+} 
+.banner-image{
+    margin-top: 100px;
+}  
 
 }
 
