@@ -22,8 +22,10 @@ border-radius: 12px;
     display: flex;
     gap: 186px;
     max-width:1160px;
-    height: 62px;
+    height: 102px;
     margin: 0 auto;
+    padding: 20px 0 20px 0;
+    align-items: center;
 }
 .logo{
     display: flex;
@@ -119,6 +121,91 @@ background: rgb(254, 163, 1);
     max-width: 50%;
     height: auto;
 }
+/*Standard Curriculum Style*/
+.curriculum{
+    max-width: 1440px;
+    height: 879px;
+    margin-left: 0;
+    /* margin-top: 675px; */
+    padding: 60px 0px 60px 0px;
+     background-image: url(../assets/bg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.curriculum-heading{
+    font-size: 2.875rem;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(0,0,0);
+}
+.curriculum-container{
+    max-width: 1160px;
+    height: 482px;
+    margin-left: 140px;
+    margin-right: -140px;
+    margin-top: 197px;
+    margin-bottom: -197px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    
+}
+.shared-style{
+    max-width:367.8px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.curriculum-standard1{
+    border: 0.94px solid rgb(222, 245, 255);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-standard1 a{
+    color: rgb(100, 200, 255);
+}
+.curriculum-standard2{
+    border: 0.94px solid rgb(255, 244, 220);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-standard2 a{
+    color: rgb(240, 170, 0);
+}
+.curriculum-standard3{
+    border: 0.94px solid rgb(242, 232, 255);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+}
+.curriculum-standard a{
+    color: rgb(135, 0, 255);
+}
+.shared-style img{
+    max-width: 30%;
+} 
+.shared-style a{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+}
+.curi-header{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(32, 32, 32);
+}
+.curi-description{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+
 
 @media screen and (max-width:576px) {
     .links , .btn-primary , .logo-title{
@@ -157,6 +244,10 @@ background: rgb(254, 163, 1);
 .banner-image{
     margin-top: 100px;
 }  
+.curriculum-container{
+    grid-template-columns: repeat(1,1fr);
+    margin: auto;
+}
 
 }
 
