@@ -27,8 +27,7 @@ border-radius: 12px;
 .logo-container{
     display: flex;
     gap: 186px;
-    max-width:1160px;
-    /* height: 102px; */
+    max-width:1440px;
     margin: 0 auto;
     padding: 20px 0 20px 0;
     align-items: center;
@@ -125,12 +124,10 @@ background: rgb(254, 163, 1);
 }
 .banner-image{
     max-width: 50%;
-    /* height: auto; */
 }
 /*Standard Curriculum Style*/
 .curriculum{
     max-width: 1440px;
-    /* height: 879px; */
     margin-left: 0;
     padding: 60px 0px 60px 0px;
      background-image: url(../assets/bg.png);
@@ -145,7 +142,6 @@ background: rgb(254, 163, 1);
 }
 .curriculum-container{
     max-width: 1160px;
-    /* height: 482px; */
     margin-left: 140px;
     margin-top: 197px;
     display: grid;
