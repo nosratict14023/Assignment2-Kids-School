@@ -28,7 +28,7 @@ border-radius: 12px;
     display: flex;
     gap: 186px;
     max-width:1160px;
-    height: 102px;
+    /* height: 102px; */
     margin: 0 auto;
     padding: 20px 0 20px 0;
     align-items: center;
@@ -41,7 +41,7 @@ border-radius: 12px;
 nav img{
     width: 100%;
 }
-nav p{
+.logo-title{
     font-size: 32px;
     font-weight: 700;
 }
@@ -89,7 +89,7 @@ background: rgb(254, 163, 1);
     display: flex;
     padding: 0 auto;
     max-width: 1160px;
-    height: 575px;
+    /* height: 575px; */
     margin-left: 141px;
     margin-top: 100px;
 }
@@ -125,12 +125,12 @@ background: rgb(254, 163, 1);
 }
 .banner-image{
     max-width: 50%;
-    height: auto;
+    /* height: auto; */
 }
 /*Standard Curriculum Style*/
 .curriculum{
     max-width: 1440px;
-    height: 879px;
+    /* height: 879px; */
     margin-left: 0;
     padding: 60px 0px 60px 0px;
      background-image: url(../assets/bg.png);
@@ -145,7 +145,7 @@ background: rgb(254, 163, 1);
 }
 .curriculum-container{
     max-width: 1160px;
-    height: 482px;
+    /* height: 482px; */
     margin-left: 140px;
     margin-top: 197px;
     display: grid;
@@ -274,7 +274,7 @@ background: rgb(254, 163, 1);
 /* story style */
 .story-container{
 max-width: 1440px;
-height: 1020px;
+/* height: 1020px; */
 padding: 60px 0px 60px 0px;
 background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 background-repeat: no-repeat;
@@ -296,7 +296,7 @@ background-size: cover;
 }
 .story img{
     width: 100%;
-    max-height: 182px;
+    /* max-height: 182px; */
     border-radius: 16px 16px 0 0;
 }
 .story button{
@@ -333,7 +333,46 @@ border-radius: 12px;
 background-color: rgb(17, 17, 17);
 color: rgb(255, 255, 255);
 }
-
+.concluation{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+    background-color: hsl(199, 99%, 50%);
+    padding-top: 120px;
+    padding-bottom: 180px;
+    
+}
+.conc-log{
+    max-width: 400px;
+}
+.conc-title{
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.conc-description{
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.conc-about{
+    color: rgb(255, 255, 255);
+}
+.conc-about h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.conc-about li{
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: left;
+}
+.conc-logo h4{
+    font-size: 1.625rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
 
 /* @media screen and (min-width:576px )  */
 @media screen and (max-width:576px) {
@@ -386,8 +425,8 @@ color: rgb(255, 255, 255);
 .repeat{
     display: block;
 }
-
+.concluation{
+    flex-direction: column;
 }
 
-
-
+}
