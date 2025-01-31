@@ -28,7 +28,6 @@ border-radius: 12px;
     display: flex;
     gap: 186px;
     max-width:1440px;
-    margin: 0 auto;
     padding: 20px 0 20px 0;
     align-items: center;
 }
