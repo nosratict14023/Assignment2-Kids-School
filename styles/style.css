@@ -409,13 +409,14 @@ color: rgb(255, 255, 255);
 }  
 .curriculum-container{
     grid-template-columns: repeat(1,1fr);
-    margin: auto;
+    justify-content: center;
 }
 .first-story{
     display: none;
 }
 .image-container{
     grid-template-columns: repeat(2,1fr);
+    justify-content: center;
 }
 .repeat{
     display: block;
